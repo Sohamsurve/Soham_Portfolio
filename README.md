@@ -45,4 +45,4 @@ A modern, responsive portfolio website showcasing my projects and skills as a Fu
 
 ---
 
-**© 2025 Soham Desai**
+**© 2025 Soham Surve**
