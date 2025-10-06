@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soham Surve - Full-Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Soham Surve</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">
+                    Hi, I'm <span class="highlight">Soham Surve</span>
+                </h1>
+                <h2 class="hero-subtitle fade-in-delay">Full-Stack Developer & Software Engineer</h2>
+                <p class="hero-description fade-in-delay-2">
+                    Passionate software engineer with expertise in React, Node.js, and modern web technologies. 
+                    I build scalable applications and create seamless user experiences that solve real-world problems.
+                </p>
+                <div class="hero-buttons fade-in-delay-3">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    
+                    <img src="assets/pic.jpg" alt="Soham Surve" style="border-radius: 100%;" class="profile-pic">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate Full-Stack Developer with a strong foundation in modern web technologies. 
+                        I specialize in building responsive web applications, RESTful APIs, and creating intuitive 
+                        user interfaces that deliver exceptional user experiences.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <h4>Education</h4>
+                            <p>Bachelor's in Artificial Intelligence and Data Science with specialization in Software Development</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Experience</h4>
+                            <p>4 months of professional experience in web development and software engineering</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Focus Areas</h4>
+                            <p>React.js, Node.js, MongoDB, TypeScript, and Modern JavaScript Frameworks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="6+">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10+">0</div>
+                        <div class="stat-label">Technologies Mastered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100+">0</div>
+                        <div class="stat-label">Commits This Year</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React.js & Redux</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript & TypeScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML5 & CSS3</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Next.js & Tailwind CSS</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Node.js & Express</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MongoDB & Mongoose</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python & Django</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PostgreSQL & MySQL</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sohamsurve/AI_powered_Tshirt_Designing" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Sohamsurve/AI_powered_Tshirt_Designing" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Powered T-Shirt Designer</h3>
+                        <p>An innovative web application that uses artificial intelligence to generate custom t-shirt designs. Features AI-powered design generation, real-time preview, and customization options for creating unique apparel.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sohamsurve/carepulse" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Sohamsurve/carepulse" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>CarePulse - Healthcare Platform</h3>
+                        <p>A comprehensive healthcare management system built with TypeScript. Features patient management, appointment scheduling, medical records, and healthcare provider dashboard with modern UI/UX design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Healthcare</span>
+                            <span class="tech-tag">Database</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sohamsurve/authentication-fronted" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Sohamsurve/authentication-fronted" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Authentication System</h3>
+                        <p>Complete authentication solution with separate frontend and backend. Features secure user login, registration, password reset, JWT token management, and protected routes with modern security practices.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">JWT</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sohamsurve/metaverse" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Sohamsurve/metaverse" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Metaverse Experience</h3>
+                        <p>An immersive metaverse web application exploring virtual worlds and 3D interactions. Features modern web technologies to create engaging virtual experiences and interactive environments.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">3D Graphics</span>
+                            <span class="tech-tag">WebGL</span>
+                            <span class="tech-tag">Virtual Reality</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sohamsurve/news_summarization_and_tts_app_assessmen" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Sohamsurve/news_summarization_and_tts_app_assessmen" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>News Summarization & TTS App</h3>
+                        <p>Intelligent news application that automatically summarizes articles using AI and converts them to speech. Features text-to-speech functionality, news aggregation, and smart content processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Text-to-Speech</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sohamsurve/weatherApp" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Sohamsurve/weatherApp" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Application</h3>
+                        <p>Real-time weather application providing current weather conditions, forecasts, and location-based weather data. Features clean UI design, responsive layout, and integration with weather APIs.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Weather API</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's build something amazing together</h3>
+                    <p>I'm currently available for freelance projects and full-time opportunities. If you have a project in mind or just want to connect, feel free to reach out. I'd love to hear from you and discuss how we can work together!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sohamsurve.dev@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 98765 43210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mumbai, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/soham-surve" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Sohamsurve" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/soham_surve" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/soham.surve" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Soham Surve. All rights reserved.</p>
+                <p>Designed & Developed with <i class="fas fa-heart"></i> by Soham Surve</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/animations.js"></script>
+</body>
+</html>
